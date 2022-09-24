@@ -1,0 +1,12 @@
+# Session Data files
+# */
+
+# ignore every subfolder
+Graphiques/*
+newdir/*
+# exclude everything
+# somefolder/*
+
+# exception to the rule
+# !somefolder/.gitkeep 
+!.gitignore
