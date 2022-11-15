@@ -1,12 +1,20 @@
 # Etude de la croissance staturo-pondérale des enfants de la cohorte PÉLAGIE
 
-__**CONTEXTE**__ Plusieurs maladies chroniques survenant à l’âge adulte ont été associées au développement pré et post-natal, en particulier à la croissance du poids et de la taille. Dans ce contexte, les modèles de croissance, développés pour suivre le développement des enfants, sont étudiés et associés à des déterminants potentiels de la croissance. L’Institut National de la Santé et de la Recherche Médicale (INSERM) et plus précisément l’**Institut de Recherche sur la Santé, l’Environnement et le Travail** (IRSET) travaillent activement sur ce sujet et établissent un lien entre les questions environnementales et sanitaires et les trajectoires de croissance et les maladies chroniques associées.
+### CONTEXTE
 
-__**OBJECTIFS**__ Cette étude, encadrée par l'IRSET, a pour but la modélisation de la croissance staturo-pondérale des enfants de la **cohorte PÉLAGIE** (Perturbateurs Endocriniens : Étude Longitudinale sur les Anomalies de la Grossesse, l’Infertilité et l’Enfance). Le but de notre étude est de comparer la qualité d'ajustement de quatre modèles de croissance. Pour cela, les modèles ont été ajustés sur les données des enfants bretons de la cohorte PÉLAGIE entre la naissance et 13 ans. Le premier objectif consiste à **déterminer le modèle qui décrit le mieux la croissance individuelle du poids et de la taille** à l'aide d'une modélisation à effets mixtes. Le second objectif est de **déterminer plusieurs profils de croissance** afin de les mettre en relation avec les déterminants de la croissance. Cette étude présente la méthodologie de modélisation de la croissance individuelle à l'aide d'un modèle structurel à effet mixtes, les quatre principaux modèles de la littérature scientifique, leur mise en œuvre et leur analyse ainsi qu'une segmentation des courbes de croissance par clustering.
+Plusieurs maladies chroniques survenant à l’âge adulte ont été associées au développement pré et post-natal, en particulier à la croissance du poids et de la taille. Dans ce contexte, les modèles de croissance, développés pour suivre le développement des enfants, sont étudiés et associés à des déterminants potentiels de la croissance. L’Institut National de la Santé et de la Recherche Médicale (INSERM) et plus précisément l’**Institut de Recherche sur la Santé, l’Environnement et le Travail** (IRSET) travaillent activement sur ce sujet et établissent un lien entre les questions environnementales et sanitaires et les trajectoires de croissance et les maladies chroniques associées.
 
-__**DONNEES**__ Dans la cohorte PÉLAGIE, les données de croissance du poids et de la taille sont recueillies entre la naissance et 17 ans. Au cours de l'étude, les mères ont rempli plusieurs questionnaires ponctuels (2, 6 et 12 ans) afin de recueillir des informations sur la croissance de leur enfant à différents stades. Environ 3 500 enfants participaient à l'étude (3 421 mères étaient incluses à la création de la cohorte). Afin de garantir la robustesse des résultats, nous avons ensuite exclu de notre base de données les enfants ayant moins de 5 mesures et aucun suivi de croissance après l'âge de 8 ans. Au final, notre base de données comprenait 23 793 mesures de 1 460 enfants.
+### OBJECTIFS
 
-__**METHODOLOGIE**__ Nous avons comparé quatre modèles présentés dans la littérature : le modèle de Jenss-Bayley et sa variante le modèle Jenss adapté ainsi que les modèles de Reed (1<sup>er</sup> et 2<sup>nd</sup> ordre).
+Cette étude, encadrée par l'IRSET, a pour but la modélisation de la croissance staturo-pondérale des enfants de la **cohorte PÉLAGIE** (Perturbateurs Endocriniens : Étude Longitudinale sur les Anomalies de la Grossesse, l’Infertilité et l’Enfance). Le but de notre étude est de comparer la qualité d'ajustement de quatre modèles de croissance. Pour cela, les modèles ont été ajustés sur les données des enfants bretons de la cohorte PÉLAGIE entre la naissance et 13 ans. Le premier objectif consiste à **déterminer le modèle qui décrit le mieux la croissance individuelle du poids et de la taille** à l'aide d'une modélisation à effets mixtes. Le second objectif est de **déterminer plusieurs profils de croissance** afin de les mettre en relation avec les déterminants de la croissance.
+
+### DONNEES
+
+Dans la cohorte PÉLAGIE, les données de croissance du poids et de la taille sont recueillies entre la naissance et 17 ans. Au cours de l'étude, les mères ont rempli plusieurs questionnaires ponctuels (2, 6 et 12 ans) afin de recueillir des informations sur la croissance de leur enfant à différents stades. Environ 3 500 enfants participaient à l'étude (3 421 mères étaient incluses à la création de la cohorte). Afin de garantir la robustesse des résultats, nous avons ensuite exclu de notre base de données les enfants ayant moins de 5 mesures et aucun suivi de croissance après l'âge de 8 ans. Au final, notre base de données comprenait 23 793 mesures de 1 460 enfants.
+
+### METHODOLOGIE
+
+Nous avons comparé quatre modèles présentés dans la littérature : le modèle de Jenss-Bayley et sa variante le modèle Jenss adapté ainsi que les modèles de Reed (1<sup>er</sup> et 2<sup>nd</sup> ordre).
 
 * **Modèle Jenss-Bayley** : $f(t) = \alpha + \beta \cdot t + e^{\gamma + \delta t}$
 * **Modèle Jenss adapté** : $f(t) = \alpha + \beta \cdot t + e^{\gamma + \delta t} + \omega \cdot t^2$
@@ -16,7 +24,9 @@ __**METHODOLOGIE**__ Nous avons comparé quatre modèles présentés dans la lit
 La qualité de l'ajustement des modèles a été évaluée à l'aide de l'écart-type des résidus, du critère d'information d'Akaike, du critère d'information bayésien et du test du rapport de vraisemblance pour les modèles emboîtés. Parmi les quatre modèles, nous avons cherché à déterminer celui qui s'ajustait le mieux aux données, c'est-à-dire celui qui minimisait l'AIC et le BIC et qui présentait la plus grande vraisemblance.
 
 
-__**CONCLUSION**__ Dans notre étude, sur les données de 0 à 13 ans, pour le poids et la taille, le **modèle de Jenss adapté a présenté le meilleur ajustement** parmi les quatre modèles utilisés. L'étude PÉLAGIE étant toujours en cours, un nouveau suivi à l'âge de 18 ans débutera en 2022 qui permettra de collecter de nouvelles données de croissance et ainsi d'étudier la croissance de la naissance jusqu'à l'âge adulte.
+### CONCLUSION
+
+Dans notre étude, sur les données de 0 à 13 ans, pour le poids et la taille, le **modèle de Jenss adapté a présenté le meilleur ajustement** parmi les quatre modèles utilisés. L'étude PÉLAGIE étant toujours en cours, un nouveau suivi à l'âge de 18 ans débutera en 2022 qui permettra de collecter de nouvelles données de croissance et ainsi d'étudier la croissance de la naissance jusqu'à l'âge adulte.
 
 __**MOTS-CLES**__ taille $\bullet$ poids $\bullet$ modèles de croissance $\bullet$ modèles de Jenss $\bullet$ modèles de Reed $\bullet$ cohorte $\bullet$ origines développementales de la santé et des maladies adultes
 
