@@ -27,13 +27,13 @@ La qualité de l'ajustement des modèles a été évaluée à l'aide de l'écart
 
 Comme on peut le voir sur le graphique ci-dessous, les résidus du modèle Jenss adapté ont une plus petite variance et sont quasiment centrés en 0 comparé aux autres modèles où il y a plus de variance. Aussi, il reste de la tendance dans les résidus, ce qui semble indiauer qu'il reste de l'information dans les résidus.
 
-![BoxplotResidusPoidsAnnees](docs/BoxplotResidusPoidsAnnees.pdf)
+![BoxplotResidusPoidsAnnees](https://github.com/alannadevgen/pelagie-cohort-study/blob/main/docs/BoxplotResidusPoidsAnnees.pdf)
 
 Si l'on représente tous les modèles sur le graphique des poids populationnels on se rend compte que seul le modèle Jenss adapté capte le rebond d'adiposité[^2].
 
 [^2]: Le rebond d’adiposité est le point le plus bas de la courbe de l’IMC, juste avant l’ascension de la courbe. Normalement, le rebond d’adiposité se situe vers l’âge de 6 ans. S’il survient avant, on parle de rebond précoce.
 
-![GraphiquePopulationnelPoids](docs/GraphiquePopulationnelPoids.pdf)
+![GraphiquePopulationnelPoids](https://github.com/alannadevgen/pelagie-cohort-study/blob/main/docs/GraphiquePopulationnelPoids.pdf)
 
 
 ### CONCLUSION
