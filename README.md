@@ -49,6 +49,6 @@ __**MOTS-CLES**__ taille $\bullet$ poids $\bullet$ modèles de croissance $\bull
 Cette étude est réalisée dans le cadre du projet statistique de deuxième année à l'[ENSAI](https://ensai.fr) (Ecole Nationale de la Statistique et de l'Analyse de l'Information).
 
 * [Corentin DAUMONT](mailto:corentin.daumont@eleve.ensai.fr)
-* [Alanna GENIN](mailto:alannagenin@gmail.com)
+* [Alanna DEVLIN GENIN](mailto:alannagenin@gmail.com)
 * [Camille PLIQUET](mailto:camille.pliquet@eleve.ensai.fr)
 
