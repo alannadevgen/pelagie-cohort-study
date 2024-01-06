@@ -7,8 +7,8 @@
 *.png
 *.jpeg
 # sauf ceux dans /docs
-!docs/BoxplotResidusPoidsAnnees.pdf
-!docs/GraphiquePopulationnelPoids.pdf
+!docs/BoxplotResidusPoidsAnnees.png
+!docs/GraphiquePopulationnelPoids.png
 
 # History files
 .Rhistory
