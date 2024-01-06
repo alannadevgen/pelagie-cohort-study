@@ -6,6 +6,9 @@
 *.pdf 
 *.png
 *.jpeg
+# sauf ceux dans /docs
+!docs/BoxplotResidusPoidsAnnees.pdf
+!docs/GraphiquePopulationnelPoids.pdf
 
 # History files
 .Rhistory
@@ -60,3 +63,4 @@ Data/*
 
 # Pas de README.html
 README.html
+
